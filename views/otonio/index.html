@@ -1,0 +1,21 @@
+$def with(otonio)
+<h3>
+    <a href="/otonio">Otoño</a>
+</h3>
+<table id="datos_tabla" class="table table-hover" cellspacing="0" width="100%">
+    <thead>
+        <th>Otoño</th>
+        <th>Editar</th>
+        <th>Eliminar</th>
+    </thead>
+    <tbody>
+        $for item in otonio:
+        <tr>
+            <td><a href='/otonio/view/$item.id_otonio'>$item.consejos</a></td>
+            <td><a href='/otonio/edit/$item.id_otonio'><span class="glyphicon glyphicon-pencil"></span></a></td>
+            <td><a href='/otonio/delete/$item.id_otonio'><span class="glyphicon glyphicon-trash"></span></a></td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>

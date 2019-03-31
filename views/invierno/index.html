@@ -1,0 +1,21 @@
+$def with(invierno)
+<h3>
+    <a href="/invierno">Invierno</a>
+</h3>
+<table id="datos_tabla" class="table table-hover" cellspacing="0" width="100%">
+    <thead>
+        <th>Invierno</th>
+        <th>Editar</th>
+        <th>Eliminar</th>
+    </thead>
+    <tbody>
+        $for item in invierno:
+        <tr>
+            <td><a href='/invierno/view/$item.id_invierno'>$item.invierno</a></td>
+            <td><a href='/invierno/edit/$item.id_invierno'><span class="glyphicon glyphicon-pencil"></span></a></td>
+            <td><a href='/invierno/delete/$item.id_invierno'><span class="glyphicon glyphicon-trash"></span></a></td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>

@@ -1,0 +1,21 @@
+$def with(primavera)
+<h3>
+    <a href="/primavera">Primavera</a>
+</h3>
+<table id="datos_tabla" class="table table-hover" cellspacing="0" width="100%">
+    <thead>
+        <th>primavera</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </thead>
+    <tbody>
+        $for item in primavera:
+        <tr>
+            <td><a href='/primavera/view/$item.id_primavera'>$item.consejos</a></td>
+            <td><a href='/primavera/edit/$item.id_primavera'><span class="glyphicon glyphicon-pencil"></span></a></td>
+            <td><a href='/primavera/delete/$item.id_primavera'><span class="glyphicon glyphicon-trash"></span></a></td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>
