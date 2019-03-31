@@ -1,0 +1,5 @@
+'/otonio', 'application.controllers.otonio.index.Index',
+'/otonio/view/(.+)', 'application.controllers.otonio.view.View',
+'/otonio/edit/(.+)', 'application.controllers.otonio.edit.Edit',
+'/otonio/delete/(.+)', 'application.controllers.otonio.delete.Delete',
+'/otonio/insert', 'application.controllers.otonio.insert.Insert',

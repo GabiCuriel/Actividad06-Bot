@@ -1,0 +1,5 @@
+'/invierno', 'application.controllers.invierno.index.Index',
+'/invierno/view/(.+)', 'application.controllers.invierno.view.View',
+'/invierno/edit/(.+)', 'application.controllers.invierno.edit.Edit',
+'/invierno/delete/(.+)', 'application.controllers.invierno.delete.Delete',
+'/invierno/insert', 'application.controllers.invierno.insert.Insert',

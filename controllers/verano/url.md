@@ -1,0 +1,5 @@
+'/verano', 'application.controllers.verano.index.Index',
+'/verano/view/(.+)', 'application.controllers.verano.view.View',
+'/verano/edit/(.+)', 'application.controllers.verano.edit.Edit',
+'/verano/delete/(.+)', 'application.controllers.verano.delete.Delete',
+'/verano/insert', 'application.controllers.verano.insert.Insert',

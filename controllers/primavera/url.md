@@ -1,0 +1,5 @@
+'/primavera', 'application.controllers.primavera.index.Index',
+'/primavera/view/(.+)', 'application.controllers.primavera.view.View',
+'/primavera/edit/(.+)', 'application.controllers.primavera.edit.Edit',
+'/primavera/delete/(.+)', 'application.controllers.primavera.delete.Delete',
+'/primavera/insert', 'application.controllers.primavera.insert.Insert',
